@@ -2,5 +2,8 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/croissant_one</item>
+        <item>@font/lemon</item>
+        <item>@font/londrina_outline</item>
+        <item>@font/spicy_rice</item>
     </array>
 </resources>
