@@ -24,7 +24,7 @@
         android:paddingBottom="20dp"
         android:text="IMC Sincero"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         android:textSize="36sp" />
 
     <EditText
@@ -63,13 +63,13 @@
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="50dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginRight="100dp"
         android:background="@drawable/button"
         android:fontFamily="@font/lemon"
         android:text="Calcular"
-        android:textColor="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccent"
         android:textSize="24sp" />
 
 </LinearLayout>
