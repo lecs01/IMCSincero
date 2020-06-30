@@ -4,7 +4,8 @@
         android:type="linear"
         android:startColor="@color/colorPrimaryDark"
         android:centerColor="@color/colorPrimaryText"
-        android:endColor="@color/colorPrimaryDark">
+        android:endColor="@color/colorPrimaryDark"
+        android:angle="270">
     </gradient>
     <corners
         android:radius="360dp">
