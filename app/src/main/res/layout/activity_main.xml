@@ -62,7 +62,9 @@
         android:layout_marginRight="100dp"
         android:background="@drawable/button"
         android:text="Calcular"
+        android:textAllCaps="true"
         android:textColor="@color/colorPrimaryText"
-        android:textSize="24sp" />
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
