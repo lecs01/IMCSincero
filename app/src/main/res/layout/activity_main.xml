@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -19,12 +18,12 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/lemon"
+        android:forceDarkAllowed="false"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
         android:text="IMC Sincero"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="36sp" />
 
     <EditText
@@ -34,13 +33,11 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:ems="10"
-        android:fontFamily="@font/lemon"
         android:hint="Sua Altura (m)"
         android:inputType="numberDecimal"
         android:paddingTop="20dp"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryText"
-        android:textColorHint="@color/colorPrimaryLight"
+        android:textAllCaps="false"
         android:textSize="24sp" />
 
     <EditText
@@ -50,13 +47,10 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:ems="10"
-        android:fontFamily="@font/lemon"
         android:hint="Seu Peso (Kg)"
         android:inputType="numberDecimal"
         android:paddingTop="20dp"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryText"
-        android:textColorHint="@color/colorPrimaryLight"
         android:textSize="24sp" />
 
     <Button
@@ -67,9 +61,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="100dp"
         android:background="@drawable/button"
-        android:fontFamily="@font/lemon"
         android:text="Calcular"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryText"
         android:textSize="24sp" />
 
 </LinearLayout>

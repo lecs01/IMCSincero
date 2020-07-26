@@ -45,7 +45,6 @@ public class IMCResultado extends AppCompatActivity {
     }
 
     public void voltar(View view){
-        Button botaovoltar = findViewById(R.id.btnVoltar);
         finish();
     }
 }

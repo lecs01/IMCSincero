@@ -7,4 +7,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ImcTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonTint">@color/colorAccent</item>
+        <item name="colorPrimary">#b71c1c</item>
+        <item name="colorPrimaryDark">#7f0000</item>
+        <item name="colorAccent">#455a64</item>
+        <item name="buttonTint">@color/colorPrimary</item>
+        <item name="fontFamily">@font/pt_sans</item>
+    </style>
+
 </resources>
